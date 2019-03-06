@@ -1,6 +1,6 @@
 ﻿namespace TextNormalization
 {
-    partial class Form1
+    partial class FormNormalization
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -77,8 +77,9 @@
             this.normalizationButton.TabIndex = 5;
             this.normalizationButton.Text = "Нормализовать";
             this.normalizationButton.UseVisualStyleBackColor = true;
+            this.normalizationButton.Click += new System.EventHandler(this.NormalizationButton_Click);
             // 
-            // Form1
+            // FormNormalization
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,7 +89,7 @@
             this.Controls.Add(this.endText);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.startText);
-            this.Name = "Form1";
+            this.Name = "FormNormalization";
             this.Text = "Нормализация текста";
             this.ResumeLayout(false);
             this.PerformLayout();
