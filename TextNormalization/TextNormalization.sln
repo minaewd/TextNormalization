@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextNormalization", "TextNormalization\TextNormalization.csproj", "{D31D402D-388E-43D5-B554-09EA516D7F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31D402D-388E-43D5-B554-09EA516D7F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31D402D-388E-43D5-B554-09EA516D7F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31D402D-388E-43D5-B554-09EA516D7F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31D402D-388E-43D5-B554-09EA516D7F56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A4B2FB7-91DB-4BC7-9519-2B99D84FF2FC}
+	EndGlobalSection
+EndGlobal
