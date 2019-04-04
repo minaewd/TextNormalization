@@ -33,6 +33,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.endText = new System.Windows.Forms.RichTextBox();
             this.normalizationButton = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // startText
@@ -79,6 +81,10 @@
             this.normalizationButton.UseVisualStyleBackColor = true;
             this.normalizationButton.Click += new System.EventHandler(this.NormalizationButton_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // FormNormalization
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -103,6 +109,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RichTextBox endText;
         private System.Windows.Forms.Button normalizationButton;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
